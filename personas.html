@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sample UXD Personas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://use.fontawesome.com/31d3284e24.js"></script>
+  </head>
+  <body>
+    <section id="over">
+      <div class="control">
+        <a href="#bad2"><i class="down fa fa-2x fa-chevron-down"><!--mce--></i></a>
+      </div>
+    </section>
+    <section id="bad1">
+      <div class="control">
+        <a href="#over"><i class="up fa fa-2x fa-chevron-up"><!--mce--></i></a>
+        <a href="#bad2"><i class="down fa fa-2x fa-chevron-down"><!--mce--></i></a>
+      </div>
+    </section>
+    <section id="bad2">
+      <div class="control">
+        <a href="#bad1"><i class="up fa fa-2x fa-chevron-up"><!--mce--></i></a>
+        <a href="#bad3"><i class="down fa fa-2x fa-chevron-down"><!--mce--></i></a>
+      </div>
+    </section>
+    <section id="bad3">
+      <div class="control">
+        <a href="#bad2"><i class="up fa fa-2x fa-chevron-up"><!--mce--></i></a>
+        <a href="#bad4"><i class="down fa fa-2x fa-chevron-down"><!--mce--></i></a>
+      </div>
+    </section>
+    <section id="bad4">
+      <div class="control">
+        <a href="#bad3"><i class="up fa fa-2x fa-chevron-up"><!--mce--></i></a>
+        <a href="#bad5"><i class="down fa fa-2x fa-chevron-down"><!--mce--></i></a>
+      </div>
+    </section>
+    <section id="bad5">
+      <div class="control">
+        <a href="#bad4"><i class="up fa fa-2x fa-chevron-up"><!--mce--></i></a>
+        <a href="#good6"><i class="down fa fa-2x fa-chevron-down"><!--mce--></i></a>
+      </div>
+    </section>
+    <section id="good6">
+      <div class="control">
+        <a href="#bad5"><i class="up fa fa-2x fa-chevron-up"><!--mce--></i></a>
+        <a href="#good7"><i class="down fa fa-2x fa-chevron-down"><!--mce--></i></a>
+      </div>
+    </section>
+    <section id="good7">
+      <div class="control">
+        <a href="#good6"><i class="up fa fa-2x fa-chevron-up"><!--mce--></i></a>
+        <a href="#good8"><i class="down fa fa-2x fa-chevron-down"><!--mce--></i></a>
+      </div>
+    </section>
+    <section id="good8">
+      <div class="control">
+        <a href="#good7"><i class="up fa fa-2x fa-chevron-up"><!--mce--></i></a>
+        <a href="#good9"><i class="down fa fa-2x fa-chevron-down"><!--mce--></i></a>
+      </div>
+    </section>
+    <section id="good9">
+      <div class="control">
+        <a href="#good8"><i class="up fa fa-2x fa-chevron-up"><!--mce--></i></a>
+        <a href="#good10"><i class="down fa fa-2x fa-chevron-down"><!--mce--></i></a>
+      </div>
+    </section>
+    <section id="good10">
+      <div class="control">
+        <a href="#good9"><i class="up fa fa-2x fa-chevron-up"><!--mce--></i></a>
+        <a href="#good11"><i class="down fa fa-2x fa-chevron-down"><!--mce--></i></a>
+      </div>
+    </section>
+    <section id="good11">
+      <div class="control">
+        <a href="#good10"><i class="up fa fa-2x fa-chevron-up"><!--mce--></i></a>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script><!-- Smooth scrolling JS -->
+			$(function() {
+			  $('a[href*="#"]:not([href="#"])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				  var target = $(this.hash);
+				  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				  if (target.length) {
+					$('html, body').animate({
+					  scrollTop: target.offset().top
+					}, 400);
+					return false;
+				  }
+				}
+			  });
+			});
+		</script>
+  </body>
+</html>

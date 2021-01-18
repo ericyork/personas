@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+section {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 0 40px 0;
+  padding: 0;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  background-position: center !important;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.control {
+  position: absolute;
+  bottom: 20px;
+}
+.up, .down {
+  color: #FFF;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 100%;
+  opacity: 1;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+.up {
+  padding: 3px 5px 7px 5px;
+  opacity: 1;
+}
+.down {
+  padding: 3px 5px 7px 5px;
+}
+.up:hover, .down:hover {
+  opacity: .7;
+}
+#over {
+  background: url('https://blog.pint.com/content/images/2019/08/user-persona-the-basics-1.jpg');
+}
+#bad1 {
+  background: url('https://www.saimgs.com/imglib/other_pages/marketing/Friedenthal-Fake-Buyer-Persona.jpg');
+}
+#bad2 {
+  background: url('https://www.smartinsights.com/wp-content/uploads/2018/04/personas-01.jpg');
+}
+#bad3 {
+  background: url('https://miro.medium.com/max/1400/0*dWBSJIDuTXz3XEt4.jpg');
+}
+#bad4 {
+  background: url('https://media.nngroup.com/media/editor/2018/01/05/personaexample.jpg');
+}
+#bad5 {
+  background: url('https://www.keepitusable.com/blog/wp-content/uploads/2016/06/ExPersona_Clark2.png');
+}
+#good6 {
+  background: url('https://i.pinimg.com/736x/84/b7/2f/84b72f84eacd951e88839b5a7fe44648--cv-design-resume-design.jpg');
+}
+#good7 {
+  background: url('https://i.pinimg.com/originals/69/cc/f0/69ccf0957c920f81c1a8e0518aefd167.jpg');
+}
+#good8 {
+  background: url('https://i.pinimg.com/originals/d0/84/52/d084520e2bbbd75ccbe862dd09faf9f7.jpg');
+}
+#good9 {
+  background: url('https://uploads-ssl.webflow.com/5ef46931a35256f828a1f539/5fb4010cdbaa5c8d12cb5a94_v1_-_woman%20(1).png');
+}
+#good10 {
+  background: url('https://s3.amazonaws.com/digitalgov/_legacy-img/2014/12/765-x-570-Complex-Persona.jpg');
+}
+#good11 {
+  background: url('https://miro.medium.com/max/4800/1*S8BfNVm-ZxSNcu_BLmBEdQ.png');
+}
